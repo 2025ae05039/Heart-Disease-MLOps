@@ -1,0 +1,54 @@
+{
+  "project": "Heart Disease Classification MLOps Assignment",
+  "dataset": "UCI Heart Disease",
+  "uci_dataset_id": 45,
+  "task": "binary classification",
+  "target_definition": "0 = original target 0 (absence); 1 = original target > 0 (presence)",
+  "selected_model": "logistic_regression",
+  "selection_metric": "mean 5-fold cross-validation ROC-AUC on training split",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "numeric_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "metrics": {
+    "model": "logistic_regression",
+    "best_cv_roc_auc": 0.9024931590148981,
+    "test_accuracy": 0.8852459016393442,
+    "test_precision": 0.8387096774193549,
+    "test_recall": 0.9285714285714286,
+    "test_f1": 0.8813559322033898,
+    "test_roc_auc": 0.9664502164502166
+  },
+  "created_utc": "2026-10-19T17:38:25.743237+00:00",
+  "artifact": "models/model.joblib"
+}

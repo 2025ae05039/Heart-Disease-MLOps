@@ -1,0 +1,15 @@
+artifact_uri: file:///kaggle/working/heart_disease_mlops_artifacts/mlruns/425949153905504950/69063573f67442debc77cfa3baf0d632/artifacts
+end_time: 1792431505693
+entry_point_name: ''
+experiment_id: '425949153905504950'
+lifecycle_stage: active
+run_id: 69063573f67442debc77cfa3baf0d632
+run_name: random_forest
+run_uuid: 69063573f67442debc77cfa3baf0d632
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792431500580
+status: 3
+tags: []
+user_id: root

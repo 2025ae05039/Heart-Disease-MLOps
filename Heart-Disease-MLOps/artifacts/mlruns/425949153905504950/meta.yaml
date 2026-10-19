@@ -1,0 +1,6 @@
+artifact_location: file:///kaggle/working/heart_disease_mlops_artifacts/mlruns/425949153905504950
+creation_time: 1792431441157
+experiment_id: '425949153905504950'
+last_update_time: 1792431441157
+lifecycle_stage: active
+name: heart-disease-classification

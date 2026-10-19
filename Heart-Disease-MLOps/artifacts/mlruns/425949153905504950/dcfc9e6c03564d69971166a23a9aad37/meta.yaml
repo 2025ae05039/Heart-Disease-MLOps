@@ -1,0 +1,15 @@
+artifact_uri: file:///kaggle/working/heart_disease_mlops_artifacts/mlruns/425949153905504950/dcfc9e6c03564d69971166a23a9aad37/artifacts
+end_time: 1792431461394
+entry_point_name: ''
+experiment_id: '425949153905504950'
+lifecycle_stage: active
+run_id: dcfc9e6c03564d69971166a23a9aad37
+run_name: logistic_regression
+run_uuid: dcfc9e6c03564d69971166a23a9aad37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792431441267
+status: 3
+tags: []
+user_id: root
