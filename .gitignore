@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+# Logs are runtime outputs; keep the directory but not generated logs.
+monitoring/prediction_log.csv
+# Do not commit local secrets or credentials.

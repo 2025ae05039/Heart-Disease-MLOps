@@ -1,0 +1,9 @@
+services:
+  heart-disease-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PREDICTION_LOG_PATH: /app/monitoring/prediction_log.csv
+    volumes:
+      - ./monitoring:/app/monitoring
